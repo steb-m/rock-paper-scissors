@@ -28,17 +28,17 @@
                 <div id="img_div">
                     <div>
                         <img
-                            id="paper" src="img/paper.jpg" alt="Hand doing the paper sign"  onclick="onClick(this)"
+                            id="paper" src="img/paper.jpg" alt="Hand doing the paper sign"  onclick="onClick('paper')"
                         >
                     </div>
 
                     <div>
-                        <img id="rock" src="img/rock.jpg" alt="Hand doing the rock sign" onclick="onClick(this)"
+                        <img id="rock" src="img/rock.jpg" alt="Hand doing the rock sign" onclick="onClick('rock')"
                         >
                     </div>
 
                     <div>
-                        <img id="scissors" src="img/sciser.jpg" alt="Hand doing the scissors sign" onclick="onClick(this)">
+                        <img id="scissors" src="img/sciser.jpg" alt="Hand doing the scissors sign" onclick="onClick('scissors')">
                     </div>
                 </div>
             </section>
@@ -46,7 +46,7 @@
             <section id="second_section">
                 <h3>Here is your track of the score!</h3>
 
-                <p id="score">You - 0 | Computer - 0</p>
+                <p id="score"></p>
 
                 <p id="result"></p>
             </section>
